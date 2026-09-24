@@ -3,10 +3,12 @@ class Solution {
         int l = 0;
         int[] windowCharcount = new int[26];
         int maxRepeating = 0;
+        int maxFreq = 0;
         for (int r = 0; r < s.length(); r++) {
             int windowsize = r - l + 1;
             windowCharcount[s.charAt(r) - 'A'] += 1;
-            while (windowsize - getMaxFreq(windowCharcount) > k) {
+            maxFreq = Math.max(maxFreq, windowCharcount[s.charAt(r) - 'A']);
+            while (windowsize - maxFreq > k) {
                 windowCharcount[s.charAt(l) - 'A'] -= 1;
                 l++;
                 windowsize--;
@@ -14,13 +16,5 @@ class Solution {
             maxRepeating = Math.max(maxRepeating, windowsize);
         }
         return maxRepeating;
-    }
-
-    private int getMaxFreq(int[] windowCharcount) {
-        int maxFreq = 0;
-        for (int freq : windowCharcount) {
-            maxFreq = Math.max(maxFreq, freq);
-        }
-        return maxFreq;
     }
 }
