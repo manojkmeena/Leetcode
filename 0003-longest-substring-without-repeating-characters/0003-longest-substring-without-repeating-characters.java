@@ -4,7 +4,7 @@ class Solution {
         int maxSub = 0;
         int l = 0;
         for (char c : s.toCharArray()) {
-            while(set.contains(c)) {
+            while (set.contains(c)) {
                 set.remove(s.charAt(l));
                 l++;
             }
