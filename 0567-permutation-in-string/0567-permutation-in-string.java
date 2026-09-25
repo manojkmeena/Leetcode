@@ -23,9 +23,6 @@ class Solution {
                 r++;
             }
         }
-        if(Arrays.equals(s1CharFreq, s2WindowCharFreq)){
-            return true;
-        }
-        return false;
+        return Arrays.equals(s1CharFreq, s2WindowCharFreq);
     }
 }
