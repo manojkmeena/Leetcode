@@ -23,12 +23,9 @@ class Solution {
                 sum = sum + l2.val;
                 l2 = l2.next;
             }
-            if (sum >= 10) {
-                carry = sum / 10;
-                sum = sum % 10;
-            } else {
-                carry = 0;
-            }
+
+            carry = sum / 10;
+            sum = sum % 10;
             curr.next = new ListNode(sum);
             curr = curr.next;
         }
