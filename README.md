@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/manojkmeena/Leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/manojkmeena/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/manojkmeena/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0432-all-oone-data-structure](https://github.com/manojkmeena/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/manojkmeena/Leetcode/tree/master/0567-permutation-in-string) |
 | [0981-time-based-key-value-store](https://github.com/manojkmeena/Leetcode/tree/master/0981-time-based-key-value-store) |
 ## Sorting
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/manojkmeena/Leetcode/tree/master/0155-min-stack) |
+| [0432-all-oone-data-structure](https://github.com/manojkmeena/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0981-time-based-key-value-store](https://github.com/manojkmeena/Leetcode/tree/master/0981-time-based-key-value-store) |
 ## Math
 |  |
@@ -197,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/manojkmeena/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/manojkmeena/Leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/manojkmeena/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0432-all-oone-data-structure](https://github.com/manojkmeena/Leetcode/tree/master/0432-all-oone-data-structure) |
 ## Recursion
 |  |
 | ------- |
@@ -208,4 +211,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/manojkmeena/Leetcode/tree/master/0141-linked-list-cycle) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0432-all-oone-data-structure](https://github.com/manojkmeena/Leetcode/tree/master/0432-all-oone-data-structure) |
 <!---LeetCode Topics End-->
