@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/manojkmeena/Leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/manojkmeena/Leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/manojkmeena/Leetcode/tree/master/0076-minimum-window-substring) |
+| [0127-word-ladder](https://github.com/manojkmeena/Leetcode/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/manojkmeena/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/manojkmeena/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/manojkmeena/Leetcode/tree/master/0141-linked-list-cycle) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/manojkmeena/Leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/manojkmeena/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/manojkmeena/Leetcode/tree/master/0125-valid-palindrome) |
+| [0127-word-ladder](https://github.com/manojkmeena/Leetcode/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/manojkmeena/Leetcode/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/manojkmeena/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/manojkmeena/Leetcode/tree/master/0567-permutation-in-string) |
@@ -215,4 +217,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0432-all-oone-data-structure](https://github.com/manojkmeena/Leetcode/tree/master/0432-all-oone-data-structure) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/manojkmeena/Leetcode/tree/master/0127-word-ladder) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/manojkmeena/Leetcode/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
