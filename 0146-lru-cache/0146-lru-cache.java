@@ -40,8 +40,9 @@ class LRUCache {
         if (cache.containsKey(key)) {
             removeNode(cache.get(key));
         }
-        cache.put(key, new Node(key, value));
-        addNode(cache.get(key));
+        Node node = new Node(key, value);
+        cache.put(key, node);
+        addNode(node);
         if (cache.size() > capacity) {
             cache.remove(head.next.key);
             removeNode(head.next);
