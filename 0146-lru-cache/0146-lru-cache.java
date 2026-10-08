@@ -28,9 +28,10 @@ class LRUCache {
 
     public int get(int key) {
         if (cache.containsKey(key)) {
-            removeNode(cache.get(key));
-            addNode(cache.get(key));
-            return cache.get(key).val;
+            Node node = cache.get(key);
+            removeNode(node);
+            addNode(node);
+            return node.val;
         }
         return -1;
     }
