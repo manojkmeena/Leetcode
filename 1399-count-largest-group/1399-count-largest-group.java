@@ -1,6 +1,6 @@
 class Solution {
     public int countLargestGroup(int n) {
-        int[] sumFreq = new int[46];
+        int[] sumFreq = new int[37];
         int maxSize = 0;
         int maxGroupCount = 0;
         for (int i = 1; i <= n; i++) {
