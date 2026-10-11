@@ -1,19 +1,19 @@
 class Solution {
     public int findSmallestInteger(int[] nums, int value) {
-        HashMap<Integer, Integer> modFreqMap = new HashMap<>();
+        int[] modFreqList = new int[value];
         for (int num : nums) {
             int mod = ((num % value) + value) % value;
-            modFreqMap.put(mod, modFreqMap.getOrDefault(mod, 0) + 1);
+            modFreqList[mod]++;
         }
         int mex = 0;
         while (true) {
             int modMex = mex % value;
-            if (modFreqMap.containsKey(modMex) && modFreqMap.get(modMex) > 0) {
-                modFreqMap.put(modMex, modFreqMap.get(modMex) - 1);
+            if (modFreqList[modMex] > 0) {
+                modFreqList[modMex]--;
+                mex++;
             } else {
                 break;
             }
-            mex++;
         }
         return mex;
     }
