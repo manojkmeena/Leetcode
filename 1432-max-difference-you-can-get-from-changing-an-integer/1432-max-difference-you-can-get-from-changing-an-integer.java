@@ -1,31 +1,26 @@
 class Solution {
     public int maxDiff(int num) {
-        String sNum = String.valueOf(num);
-        char[] maxNum = sNum.toCharArray();
+        String maxNum = String.valueOf(num);
         char x = 'x';
-        for (int i = 0; i < maxNum.length; i++) {
-            if (maxNum[i] != '9' && x == 'x') {
-                x = maxNum[i];
-            }
-            if (x != 'x' && maxNum[i] == x) {
-                maxNum[i] = '9';
+        for (int i = 0; i < maxNum.length(); i++) {
+            if (maxNum.charAt(i) != '9' && x == 'x') {
+                x = maxNum.charAt(i);
             }
         }
-        char[] minNum = sNum.toCharArray();
+        maxNum = maxNum.replace(x, '9');
+        String minNum = String.valueOf(num);
         x = 'x';
         char y = '1';
-        if(minNum[0] != '1'){
-            x = minNum[0];
+        if (minNum.charAt(0) != '1') {
+            x = minNum.charAt(0);
         }
-        for (int i = 0; i < minNum.length; i++) {
-            if (minNum[i] != '1' && minNum[i] != '0' && x == 'x') {
-                x = minNum[i];
+        for (int i = 0; i < minNum.length(); i++) {
+            if (minNum.charAt(i) != '1' && minNum.charAt(i) != '0' && x == 'x') {
+                x = minNum.charAt(i);
                 y = '0';
             }
-            if (x != 'x' && minNum[i] == x) {
-                minNum[i] = y;
-            }
         }
-        return Integer.valueOf(new String(maxNum)) - Integer.valueOf(new String(minNum));
+        minNum = minNum.replace(x, y);
+        return Integer.valueOf(maxNum) - Integer.valueOf(minNum);
     }
 }
