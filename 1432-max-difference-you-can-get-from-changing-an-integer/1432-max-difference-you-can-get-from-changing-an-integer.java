@@ -11,10 +11,9 @@ class Solution {
         
         String minNum = String.valueOf(num);
         x = 'x';
-        char y = 'y';
+        char y = '1';
         if (minNum.charAt(0) != '1') {
             x = minNum.charAt(0);
-            y = '1';
         } else {
             for (int i = 0; i < minNum.length(); i++) {
                 if (minNum.charAt(i) != '1' && minNum.charAt(i) != '0' && x == 'x') {
