@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0853-car-fleet](https://github.com/manojkmeena/Leetcode/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/manojkmeena/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/manojkmeena/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
+| [1403-minimum-subsequence-in-non-increasing-order](https://github.com/manojkmeena/Leetcode/tree/master/1403-minimum-subsequence-in-non-increasing-order) |
 | [1598-crawler-log-folder](https://github.com/manojkmeena/Leetcode/tree/master/1598-crawler-log-folder) |
 | [2598-smallest-missing-non-negative-integer-after-operations](https://github.com/manojkmeena/Leetcode/tree/master/2598-smallest-missing-non-negative-integer-after-operations) |
 ## Hash Table
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/manojkmeena/Leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/manojkmeena/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0853-car-fleet](https://github.com/manojkmeena/Leetcode/tree/master/0853-car-fleet) |
+| [1403-minimum-subsequence-in-non-increasing-order](https://github.com/manojkmeena/Leetcode/tree/master/1403-minimum-subsequence-in-non-increasing-order) |
 ## String
 |  |
 | ------- |
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/manojkmeena/Leetcode/tree/master/0011-container-with-most-water) |
+| [1403-minimum-subsequence-in-non-increasing-order](https://github.com/manojkmeena/Leetcode/tree/master/1403-minimum-subsequence-in-non-increasing-order) |
 | [2598-smallest-missing-non-negative-integer-after-operations](https://github.com/manojkmeena/Leetcode/tree/master/2598-smallest-missing-non-negative-integer-after-operations) |
 ## Dynamic Programming
 |  |
