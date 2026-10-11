@@ -53,9 +53,7 @@ public class UndergroundSystem {
         // Retrieve and remove customer's active trip in O(1)
         CheckInInfo checkIn = checkInMap.remove(id);
         int duration = t - checkIn.time;
-
         String routeKey = checkIn.station + "->" + stationName;
-
         // Aggregate statistics for this route in O(1)
         RouteStats stats = routeStatsMap.get(routeKey);
         if (stats == null) {
