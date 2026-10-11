@@ -154,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/manojkmeena/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0380-insert-delete-getrandom-o1](https://github.com/manojkmeena/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [1399-count-largest-group](https://github.com/manojkmeena/Leetcode/tree/master/1399-count-largest-group) |
+| [1432-max-difference-you-can-get-from-changing-an-integer](https://github.com/manojkmeena/Leetcode/tree/master/1432-max-difference-you-can-get-from-changing-an-integer) |
 | [2598-smallest-missing-non-negative-integer-after-operations](https://github.com/manojkmeena/Leetcode/tree/master/2598-smallest-missing-non-negative-integer-after-operations) |
 ## Monotonic Stack
 |  |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/manojkmeena/Leetcode/tree/master/0011-container-with-most-water) |
 | [1403-minimum-subsequence-in-non-increasing-order](https://github.com/manojkmeena/Leetcode/tree/master/1403-minimum-subsequence-in-non-increasing-order) |
+| [1432-max-difference-you-can-get-from-changing-an-integer](https://github.com/manojkmeena/Leetcode/tree/master/1432-max-difference-you-can-get-from-changing-an-integer) |
 | [2598-smallest-missing-non-negative-integer-after-operations](https://github.com/manojkmeena/Leetcode/tree/master/2598-smallest-missing-non-negative-integer-after-operations) |
 ## Dynamic Programming
 |  |
