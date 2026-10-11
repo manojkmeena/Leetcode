@@ -3,8 +3,9 @@ class Solution {
         String maxNum = String.valueOf(num);
         char x = 'x';
         for (int i = 0; i < maxNum.length(); i++) {
-            if (maxNum.charAt(i) != '9' && x == 'x') {
-                x = maxNum.charAt(i);
+            char c = maxNum.charAt(i);
+            if (c != '9' && x == 'x') {
+                x = c;
             }
         }
         maxNum = maxNum.replace(x, '9');
@@ -15,9 +16,9 @@ class Solution {
             x = minNum.charAt(0);
         } else {
             for (int i = 1; i < minNum.length(); i++) {
-                if (minNum.charAt(i) != '1' && minNum.charAt(i) != '0'
-                        && x == 'x') {
-                    x = minNum.charAt(i);
+                char c = minNum.charAt(i);
+                if (c != '1' && c != '0' && x == 'x') {
+                    x = c;
                     y = '0';
                 }
             }
