@@ -19,8 +19,13 @@ class UndergroundSystem {
         String startStation = checkinStation.get(id);
         int startTime = checkinTime.get(id);
         String route = startStation + "-" + stationName;
-        int totalTime = routeMap.containsKey(route) ? routeMap.get(route)[0] + t - startTime : t - startTime;
-        int totalCount = routeMap.containsKey(route) ? routeMap.get(route)[1] + 1 : 1;
+
+        int totalTime = t - startTime;
+        int totalCount = 1;
+        if(routeMap.containsKey(route)){
+            totalTime += routeMap.get(route)[0];
+            totalCount += routeMap.get(route)[1];
+        }
         routeMap.put(route, new int[] { totalTime, totalCount });
     }
 
