@@ -8,7 +8,6 @@ class Solution {
             }
         }
         maxNum = maxNum.replace(x, '9');
-        
         String minNum = String.valueOf(num);
         x = 'x';
         char y = '1';
@@ -23,7 +22,6 @@ class Solution {
             }
         }
         minNum = minNum.replace(x, y);
-        
         return Integer.valueOf(maxNum) - Integer.valueOf(minNum);
     }
 }
