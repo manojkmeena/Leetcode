@@ -51,7 +51,7 @@ public class UndergroundSystem {
 
     public void checkOut(int id, String stationName, int t) {
         // Retrieve and remove customer's active trip in O(1)
-        CheckInInfo checkIn = checkInMap.remove(id);
+        CheckInInfo checkIn = checkInMap.get(id);
         int duration = t - checkIn.time;
 
         String routeKey = checkIn.station + "->" + stationName;
