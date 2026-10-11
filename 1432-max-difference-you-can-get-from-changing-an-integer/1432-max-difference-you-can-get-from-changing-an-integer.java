@@ -15,7 +15,8 @@ class Solution {
             x = minNum.charAt(0);
         } else {
             for (int i = 1; i < minNum.length(); i++) {
-                if (minNum.charAt(i) != '1' && minNum.charAt(i) != '0' && x == 'x') {
+                if (minNum.charAt(i) != '1' && minNum.charAt(i) != '0'
+                        && x == 'x') {
                     x = minNum.charAt(i);
                     y = '0';
                 }
