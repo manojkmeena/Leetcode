@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0853-car-fleet](https://github.com/manojkmeena/Leetcode/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/manojkmeena/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/manojkmeena/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
+| [2598-smallest-missing-non-negative-integer-after-operations](https://github.com/manojkmeena/Leetcode/tree/master/2598-smallest-missing-non-negative-integer-after-operations) |
 ## Hash Table
 |  |
 | ------- |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0432-all-oone-data-structure](https://github.com/manojkmeena/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/manojkmeena/Leetcode/tree/master/0567-permutation-in-string) |
 | [0981-time-based-key-value-store](https://github.com/manojkmeena/Leetcode/tree/master/0981-time-based-key-value-store) |
+| [2598-smallest-missing-non-negative-integer-after-operations](https://github.com/manojkmeena/Leetcode/tree/master/2598-smallest-missing-non-negative-integer-after-operations) |
 ## Sorting
 |  |
 | ------- |
@@ -144,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/manojkmeena/Leetcode/tree/master/0002-add-two-numbers) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/manojkmeena/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0380-insert-delete-getrandom-o1](https://github.com/manojkmeena/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [2598-smallest-missing-non-negative-integer-after-operations](https://github.com/manojkmeena/Leetcode/tree/master/2598-smallest-missing-non-negative-integer-after-operations) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -186,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/manojkmeena/Leetcode/tree/master/0011-container-with-most-water) |
+| [2598-smallest-missing-non-negative-integer-after-operations](https://github.com/manojkmeena/Leetcode/tree/master/2598-smallest-missing-non-negative-integer-after-operations) |
 ## Dynamic Programming
 |  |
 | ------- |
