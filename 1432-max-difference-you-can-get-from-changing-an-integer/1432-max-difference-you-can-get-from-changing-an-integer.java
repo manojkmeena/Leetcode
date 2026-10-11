@@ -13,11 +13,12 @@ class Solution {
         char y = '1';
         if (minNum.charAt(0) != '1') {
             x = minNum.charAt(0);
-        }
-        for (int i = 0; i < minNum.length(); i++) {
-            if (minNum.charAt(i) != '1' && minNum.charAt(i) != '0' && x == 'x') {
-                x = minNum.charAt(i);
-                y = '0';
+        } else {
+            for (int i = 0; i < minNum.length(); i++) {
+                if (minNum.charAt(i) != '1' && minNum.charAt(i) != '0' && x == 'x') {
+                    x = minNum.charAt(i);
+                    y = '0';
+                }
             }
         }
         minNum = minNum.replace(x, y);
