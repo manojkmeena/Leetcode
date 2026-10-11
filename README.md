@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0853-car-fleet](https://github.com/manojkmeena/Leetcode/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/manojkmeena/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/manojkmeena/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
+| [1598-crawler-log-folder](https://github.com/manojkmeena/Leetcode/tree/master/1598-crawler-log-folder) |
 | [2598-smallest-missing-non-negative-integer-after-operations](https://github.com/manojkmeena/Leetcode/tree/master/2598-smallest-missing-non-negative-integer-after-operations) |
 ## Hash Table
 |  |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/manojkmeena/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/manojkmeena/Leetcode/tree/master/0567-permutation-in-string) |
 | [0981-time-based-key-value-store](https://github.com/manojkmeena/Leetcode/tree/master/0981-time-based-key-value-store) |
+| [1598-crawler-log-folder](https://github.com/manojkmeena/Leetcode/tree/master/1598-crawler-log-folder) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -128,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/manojkmeena/Leetcode/tree/master/0155-min-stack) |
 | [0739-daily-temperatures](https://github.com/manojkmeena/Leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/manojkmeena/Leetcode/tree/master/0853-car-fleet) |
+| [1598-crawler-log-folder](https://github.com/manojkmeena/Leetcode/tree/master/1598-crawler-log-folder) |
 ## Bracket Sequences
 |  |
 | ------- |
