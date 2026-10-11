@@ -23,6 +23,7 @@ class Solution {
             }
         }
         minNum = minNum.replace(x, y);
+        
         return Integer.valueOf(maxNum) - Integer.valueOf(minNum);
     }
 }
